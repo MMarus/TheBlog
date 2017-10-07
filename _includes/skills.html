@@ -1,0 +1,25 @@
+<!--Skills-->
+{% assign skills = "Java C/C++ Python SQL Bash Linux GIT NodeJs Android C#" | split: ' ' %}
+{% assign percentages = "85 85 85 85 85 85 60 60 60 60" | split: ' ' %}
+<h3 class="header">My Skills</h3>
+<div class="card">
+    <div class="card-content">
+        <div class="row">
+            {% for skill in skills %}
+            <div class="col m3 l2 center">
+                <h5>{{ skill }}</h5>
+                <div class="c100 p{{ percentages[forloop.index0] }} small center">
+                    <span>{{ percentages[forloop.index0] }}%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <h5>I have also worked with these technologies:</h5>
+        <p>Docker, OpenMPI, OpenMP, OpenCV, Nette, Wicket, Express.js, LaTeX, Kotlin, Go, Socket.io, PaperJS, MySQL, PL/SQL, PostgreSQL.</p>
+    </div>
+</div>
+<!--End Skills-->

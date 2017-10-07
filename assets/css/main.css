@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "...ort "variables"": expected "{", was ";"
+        on line 4 of main.scss
+
+1: ---
+2: ---
+3: 
+4: @import "variables";
+5: @import "navbar";
+6: @import "syntax";
+7: @import "cards";
+8: @import "tags";
+9: @import "author";
+
+Backtrace:
+main.scss:4
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/plugin.rb:82:in `update_stylesheets'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/home/mmarusic/.gem/ruby/2.4.0/gems/sass-3.5.2/bin/scss:13:in `<top (required)>'
+/home/mmarusic/bin/scss:23:in `load'
+/home/mmarusic/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ort \"variables\"\": expected \"{\", was \";\"\A         on line 4 of main.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @import \"variables\";\A 5: @import \"navbar\";\A 6: @import \"syntax\";\A 7: @import \"cards\";\A 8: @import \"tags\";\A 9: @import \"author\";"; }

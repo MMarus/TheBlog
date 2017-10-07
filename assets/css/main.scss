@@ -1,0 +1,43 @@
+---
+---
+
+@import "variables";
+@import "navbar";
+@import "syntax";
+@import "cards";
+@import "tags";
+@import "author";
+@import "circle";
+@import "post";
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  .fixed-action-btn {
+    display:block!important
+  }
+}
+
+.user-img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #1e88e5;
+}
+
+.fixed-action-btn {
+  display: none;
+}
+
+.header {
+  color: #4a4a4a;
+}
+
+body {
+  background-color: #eee;
+}
