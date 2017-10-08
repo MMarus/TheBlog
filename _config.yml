@@ -21,20 +21,22 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mmarusic.eu" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mmarus
 fb_username: marek.marusic
 twitter_username: Maaaareeeek
 instagram_username: maareekm
 linkedin_username: marekmarusic
-userPhoto: assets/img/user.jpg
+userPhoto: /assets/img/user.jpg
 aboutMe: "My first contact with development was during my elementary school when I was trying out some HTML and CSS.
-Then during my high school I started to learn PHP, MySQL and C from books my father bought me."
+Then during my high school I started to learn PHP, MySQL and C from books my father bought me and the education of my self and the software development became my passion."
 
 #As a self-motivated and responsible person I love solving problems.
 #At the same time, I am looking forward to challenging and growth oriented tasks that help to prove the best of my ability in achieving the objective of the job.
-
+user_description: Software Engineer passionate about technology, who is always looking forward to improve himself and learn something new.
 profession: Software Developer
+
+disqus_username: mmarusic
 
 # Build settings
 markdown: kramdown

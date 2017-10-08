@@ -118,11 +118,8 @@
   background-color: $twitterColor;
 }
 
-.btn-white {
+.btn-socials {
   transition: background-color 0.7s ease;
-  background-color: white;
-  width: 30px;
-  height: 30px;
   display: inline-block;
   text-indent: -9999px;
   -webkit-mask-size: contain;
@@ -131,17 +128,22 @@
   mask-position: center;
 }
 
-.btn-blue {
-  transition: background-color 0.7s ease;
-  background-color: darkblue;
+.btn-socials-smaller {
   width: 20px;
   height: 30px;
-  display: inline-block;
-  text-indent: -9999px;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-  -webkit-mask-position: center;
-  mask-position: center;
+}
+
+.btn-socials-bigger {
+  width: 30px;
+  height: 50px;
+}
+
+.btn-blue {
+  background-color: darkblue;
+}
+
+.btn-white {
+  background-color: white;
 }
 
 .social-media-icon > .btn-blue:hover {
