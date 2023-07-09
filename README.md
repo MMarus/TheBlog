@@ -1,3 +1,11 @@
+# How to use this:
+
+
+`docker compose up`
+
+after generating the page can be  taken from the _site and you can copy this to the github io pages
+
+
 # materialize-jekyll
 
 ![Materialize meets Jekyll](http://res.cloudinary.com/victorpre/image/upload/v1503466230/Gem%20materialize-jekyll/materialize-jekyll.png)
