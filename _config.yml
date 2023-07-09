@@ -17,24 +17,24 @@ title: Marek Marusic
 username: Marek Marusic
 email: marek.marusic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Marek Marusic - Software Engineer passionate about technology, who is always looking forward to improve himself and learn something new.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mmarusic.eu" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mmarus
-fb_username: marek.marusic
-twitter_username: Maaaareeeek
-instagram_username: maareekm
 linkedin_username: marekmarusic
 userPhoto: /assets/img/user.jpg
-aboutMe: "My first contact with development was during my elementary school when I was trying out some HTML and CSS.
-Then during my high school I started to learn PHP, MySQL and C from books my father bought me and the education of my self and the software development became my passion."
+aboutMe: "
+  passionate about technology, who is always looking forward to improve himself and learn something new.
 
-#As a self-motivated and responsible person I love solving problems.
-#At the same time, I am looking forward to challenging and growth oriented tasks that help to prove the best of my ability in achieving the objective of the job.
-user_description: Software Engineer passionate about technology, who is always looking forward to improve himself and learn something new.
-profession: Software Developer
+I am trying to stay at the bleeding edge of tech industry so that I can find and invest time in really world shaping technologies and maybe create some. 
+
+I love learning, building and passing on the knowledge so that others can go through the same realization but shorten the time for them.
+
+I always try to be approachable, kind and helpful to other team members and I am always open to new ideas and suggestions."
+
+
+user_description: passionate about technology, who is always looking forward to improve himself and learn something new.
+profession: Software Engineer
 
 disqus_username: mmarusic
 

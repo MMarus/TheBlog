@@ -7,6 +7,11 @@ tags: FIT VUT
 ---
 
 List of all projects I have done during the study at FIT. They are sorted from newest to oldest.
+### Masters study 2nd year
+
+|  # | Subject | Title | Technology | Points |
+|:---:|:---:|:---:|:---:|:---:|
+| 1  | Diploma Thesis | [Deep neural networks used for customer support cases analysis](https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=181296)  |  NLP, Keras | Defended and final mark was B |
 
 ### Masters study 1st year
 

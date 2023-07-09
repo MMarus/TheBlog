@@ -2,7 +2,7 @@ version: "2"
 services:
   site:
     command: jekyll serve
-    image: jekyll/jekyll:latest
+    image: jekyll/jekyll:3.6
     volumes:
       - ./:/srv/jekyll
       - ./vendor/bundle:/usr/local/bundle
