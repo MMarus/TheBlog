@@ -6,14 +6,14 @@ date:   2017-10-07 11:37:34 +0200
 tags: FIT VUT
 ---
 
-List of all projects I have done during the study at FIT. They are sorted from newest to oldest.
-### Masters study 2nd year
+<!-- #List of all projects I have done during the study at FIT. They are sorted from newest to oldest. -->
+##### Masters study 2nd year
 
 |  # | Subject | Title | Technology | Points |
 |:---:|:---:|:---:|:---:|:---:|
 | 1  | Diploma Thesis | [Deep neural networks used for customer support cases analysis](https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=181296)  |  NLP, Keras | Defended and final mark was B |
 
-### Masters study 1st year
+##### Masters study 1st year
 
 |  # | Subject | Title | Technology | Points |
 |:---:|:---:|:---:|:---:|:---:|
@@ -30,13 +30,13 @@ List of all projects I have done during the study at FIT. They are sorted from n
 | 11  | ZRE | [LPC decoder](https://github.com/MMarus/ZRE-LPC-decoder)  | Go  | 15/15  |
 | 12  | ZRE | [Recognition of words](https://github.com/MMarus/FIT-BUT-projects/tree/master/1Mit/ZRE/proj2)  | HTK  | 14/14  |
 
-### My Bachelor thesis
+##### My Bachelor thesis
 
 |  # | Subject | Title | Technology | Grade |
 |:---:|:---:|:---:|:---:|:---:|
 | 1  | Bachelor Thesis | [Automatization of MitM Attack for SSL/TLS Decryption](https://github.com/MMarus/AutoMITM)  | Python, C  |  B |
 
-### Bachelors study 3rd year
+##### Bachelors study 3rd year
 
 |  # | Subject | Title | Technology | Points |
 |:---:|:---:|:---:|:---:|:---:|
@@ -48,7 +48,7 @@ List of all projects I have done during the study at FIT. They are sorted from n
 | 6  | ITW | [Recreate a web page](https://github.com/MMarus/FIT-BUT-projects/tree/master/3BIT-Third%20year/ITW)  | HTML,CSS  |  20/20 |
 | 7  | IW5 | [Movies browser](https://github.com/MMarus/FIT-BUT-projects/tree/master/3BIT-Third%20year/IW5)  | C#, Entity FW, WPF  |  33/70 |
 
-### Bachelors study 2nd year
+##### Bachelors study 2nd year
 
 |  # | Subject | Title | Technology | Points |
 |:---:|:---:|:---:|:---:|:---:|
@@ -67,7 +67,7 @@ List of all projects I have done during the study at FIT. They are sorted from n
 | 13  |  ISJ |  [Twitter and phorum scraper](https://github.com/MMarus/FIT-BUT-projects/tree/master/2BIT-Second%20year/ISJ) | Python  | 36/40  |
 
 
-### Bachelors study 1st year
+##### Bachelors study 1st year
 
 |  # | Subject | Title | Technology | Points |
 |:---:|:---:|:---:|:---:|:---:|

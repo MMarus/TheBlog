@@ -1,27 +1,23 @@
 <!--Skills-->
-{% assign skills = "Java C/C++ Python SQL Bash Linux GIT NodeJs Android C#" | split: ' ' %}
-{% assign skills = "Java C/C++ Python SQL Bash Linux GIT NodeJs Android C#" | split: ' ' %}
-{% assign skills = "Java C/C++ Python SQL Bash Linux GIT NodeJs Android C#" | split: ' ' %}
-{% assign percentages = "85 80 75 75 85 85 85 50 50 50" | split: ' ' %}
+{% assign skills_proficient = "C#, Python, SQL, Docker, Azure Cloud, Git" | split: ' ' %}
+{% assign skills_prior_exp = "Java, Linux, TypeScript, Angular, Kubernetes, Terraform, Keras, C/C++" | split: ' ' %}
 <h3 class="header">My Skills</h3>
 <div class="card">
     <div class="card-content">
-        <div class="row">
-            {% for skill in skills %}
-            <div class="col m3 l2 center">
-                <h5>{{ skill }}</h5>
-                <div class="c100 p{{ percentages[forloop.index0] }} small center">
-                    <span>{{ percentages[forloop.index0] }}%</span>
-                    <div class="slice">
-                        <div class="bar"></div>
-                        <div class="fill"></div>
-                    </div>
-                </div>
-            </div>
+        <h5>Proficient: </h5>
+        <p>
+            {% for skill in skills_proficient %}    
+                {{ skill }}
             {% endfor %}
-        </div>
+        </p>
+        <h5>Prior experience: </h5>
+        <p>
+            {% for skill in skills_prior_exp %}
+                {{ skill }}
+            {% endfor %}
+        </p>
         <h5>I have also worked with these technologies:</h5>
-        <p>Docker, OpenMPI, OpenMP, OpenCV, Nette, Wicket, Maven, Express.js, LaTeX, Kotlin, Go, Socket.io, PaperJS, MySQL, PL/SQL, PostgreSQL, GWT.</p>
+        <p>OpenMPI, OpenMP, OpenCV, Nette, Wicket, Maven, Express.js, LaTeX, Kotlin, Go, Socket.io, PaperJS, MySQL, PL/SQL, PostgreSQL, GWT.</p>
     </div>
 </div>
 <!--End Skills-->
